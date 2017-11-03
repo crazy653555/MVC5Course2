@@ -13,5 +13,16 @@ namespace MVC5Course2.Controllers
         {
             return View();
         }
+
+        public ActionResult MemberProfilte()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult MemberProfile()
+        {
+            return View();
+        }
     }
 }
